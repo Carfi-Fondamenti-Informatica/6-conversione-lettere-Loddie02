@@ -4,22 +4,17 @@ using namespace std;
 
 
 int main() {
-    char input;
-    bool result;
-    char conversion;
-    cin>>input;
+    char c=c;
+    cin>>c;
 
-    result=convert(input);
-    cout<<result<<endl;
-
-    if (result==true) {
-        if (input>=65 && input<=90) {
-            conversion= nput+32;
+    if (convert(c)) {
+        if (c >= 65 && c <= 90) {
+            c = c + 32;
         }
-        if (input>=97 && input<=122) {
-            conversion=input-32;
+        if (c >= 97 && c <= 122) {
+            c = c - 32;
         }
-        cout<<conversion<<endl;
+        cout<<c<<endl;
     } else {
         cout<<"errore";
     }
