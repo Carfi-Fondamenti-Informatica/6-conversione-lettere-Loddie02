@@ -8,12 +8,6 @@ int main() {
     cin>>c;
 
     if (convert(c)) {
-        if (c >= 65 && c <= 90) {
-            c = c + 32;
-        }
-        if (c >= 97 && c <= 122) {
-            c = c - 32;
-        }
         cout<<c<<endl;
     } else {
         cout<<"errore";
