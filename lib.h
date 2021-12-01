@@ -1,1 +1,5 @@
+#ifndef CONVERSIONELETTERE_LIB_H
+#define CONVERSIONELETTERE_LIB_H
 
+bool convert(char c);
+#endif //CONVERSIONELETTERE_LIB_H
